@@ -1,5 +1,3 @@
-
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -146,6 +144,7 @@ body {
 
 
 }
+
 .right {
   height: 100%;
   width: 50%;
@@ -238,7 +237,7 @@ input {
 }
 
 
-.weathers .cityName  {
+.weathers .cityName {
   font-size: 1.7vw;
   font-family: actay;
   color: whitesmoke;
@@ -275,33 +274,34 @@ input {
 }
 
 
-.countrynameandcity{
+.countrynameandcity {
   height: 7vh;
   width: 100%;
   gap: 1vw;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-bottom: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3vw;
 
 }
 
 
-.contryflags{
+.contryflags {
   height: 6vh;
   width: 8%;
   overflow: hidden;
 
 }
-.contryflags img{ 
+
+.contryflags img {
   width: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
-  
+
 }
 
-.weatherinformation{
+.weatherinformation {
 
   height: 28vh;
   width: 100%;
@@ -310,13 +310,552 @@ margin-bottom: 3vw;
 
 }
 
-.weatherinformation h2{
+.weatherinformation h2 {
   font-family: actay;
   margin: 1.5vw 0;
-
   font-weight: 400;
   font-size: 1.2vw;
   border-bottom: 1px solid rgb(82, 82, 82);
- 
 
+
+}
+
+
+
+@media (max-width: 768px) {
+
+
+  .container {
+    height: 90vh;
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3vw;
+    flex-direction: column;
+
+  }
+
+
+  .left {
+    height: 100%;
+    width: 100%;
+
+
+  }
+
+  .end {
+    height: 21vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+
+  }
+
+  .endleft {
+    height: 100%;
+    width: 100%;
+
+
+
+
+  }
+
+  .endleft h1 {
+    font-size: 3vw;
+
+
+
+
+
+  }
+
+  .endleft p {
+    font-size: 3vw;
+
+
+
+
+
+  }
+
+  .endright {
+    height: 100%;
+    width: 100%;
+
+
+
+
+
+  }
+
+  .endright h2 {
+    font-family: actay;
+    font-weight: 500;
+    font-size: 8vw;
+    text-align: center;
+
+
+
+
+  }
+
+
+  .right {
+    height: 100%;
+    width: 100%;
+
+  }
+
+  .inputs {
+    gap: 2vw;
+    margin-top: 3vw;
+    display: flex;
+    align-items: center;
+    padding: 0 1vw;
+    justify-content: space-between;
+  }
+
+  input {
+    width: 60%;
+    padding: 8px;
+    font-size: 3.5vw;
+  }
+
+  .inputs button {
+    width: 50px;
+    font-size: 2vw;
+
+  }
+
+  .weathers {
+
+    text-align: center;
+
+  }
+
+  .weathers img {
+
+    width: 40vw;
+
+  }
+
+  .imagesss {
+    height: 24vh;
+
+    margin: 1vw 0;
+
+  }
+
+  .weathers p {
+
+    font-size: 10vw;
+    /* font-weight: 600; */
+
+  }
+
+  .weathers .climate {
+    font-size: 5vw;
+  }
+
+  .weathers .cityName {
+
+    font-size: 6vw;
+
+  }
+
+
+  .errorPage p {
+    font-size: 6vw;
+    font-family: actay;
+
+  }
+
+  .errorPage img {
+    height: 30vh;
+  }
+
+  .countrynameandcity {
+    height: 5vh;
+    width: 100%;
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vw;
+
+  }
+
+  .contryflags {
+    height: 4vh;
+    width: 10%;
+    overflow: hidden;
+
+  }
+
+  .contryflags img {
+    width: 100%;
+    width: 100%;
+
+  }
+
+
+  .weatherinformation {
+    height: 24vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0.6vw;
+
+
+  }
+
+  .weatherinformation h2 {
+    margin: 2vw 0;
+    font-size: 5vw;
+
+
+  }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+  
+  .container {
+    height: 90vh;
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3vw;
+    flex-direction: column;
+
+  }
+
+
+  .left {
+    height: 100%;
+    width: 100%;
+
+
+  }
+
+  .end {
+    height: 18vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+
+  }
+
+  .endleft {
+    height: 100%;
+    width: 100%;
+
+
+
+
+  }
+
+  .endleft h1 {
+    font-size: 2.6vw;
+
+
+
+
+
+  }
+
+  .endleft p {
+    font-size: 2vw;
+
+
+
+
+
+  }
+
+  .endright {
+    height: 100%;
+    width: 100%;
+
+
+
+
+
+  }
+
+  .endright h2 {
+    font-family: actay;
+    font-weight: 500;
+    font-size: 4vw;
+    text-align: center;
+
+
+
+
+  }
+
+
+  .right {
+    height: 100%;
+    width: 100%;
+
+  }
+
+  .inputs {
+    gap: 2vw;
+    margin-top: 1vw;
+    display: flex;
+    align-items: center;
+    padding: 0 1vw;
+    justify-content: space-between;
+  }
+
+  input {
+    width: 50%;
+    padding: 9px;
+    font-size: 3vw;
+  }
+
+  .inputs button {
+    height: 4vh;
+    width: 80px;
+    font-size: 10vw;
+
+  }
+
+  .weathers {
+
+    text-align: center;
+
+  }
+
+  .weathers img {
+
+    width: 35vw;
+
+  }
+
+  .imagesss {
+    margin: 2vw 0;
+    height: 24vh;
+    margin: 1vw 0;
+
+  }
+
+  .weathers p {
+
+    font-size: 6vw;
+    /* font-weight: 600; */
+
+  }
+
+  .weathers .climate {
+    font-size: 4vw;
+  }
+
+  .weathers .cityName {
+
+    font-size: 4vw;
+
+  }
+
+
+  .errorPage p {
+    font-size: 6vw;
+    font-family: actay;
+
+  }
+
+  .errorPage img {
+    height: 30vh;
+  }
+
+  .countrynameandcity {
+    height: 8vh;
+    width: 100%;
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vw;
+
+  }
+
+  .contryflags {
+    height: 6vh;
+    width: 8%;
+    overflow: hidden;
+
+  }
+
+  .contryflags img {
+    width: 100%;
+    width: 100%;
+
+  }
+
+
+  .weatherinformation {
+    height: 26vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0.6vw;
+
+
+  }
+
+  .weatherinformation h2 {
+    margin: 2vw 0;
+    font-size: 3.2vw;
+
+
+  }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px){
+
+
+
+  .endleft h1 {
+    font-family: actay;
+    font-weight: 500;
+    font-size: 1.5vw;
+    text-align: center;
+  
+  
+  
+  
+  
+  }
+  .endleft p {
+    font-size: 1.5vw;
+  
+  
+  
+  
+  
+  }
+  .endright h2 {
+    font-size: 3.5vw;
+  
+  
+  
+  
+  }
+
+  .errorPage {
+    text-align: center;
+    font-family: actay;
+    background-color: #282c34;
+  
+  }
+  .errorPage p {
+    font-size: 25px;
+    font-family: actay;
+  
+  }
+  
+.errorPage img {
+  height: 45vh;
+}
+  input {
+ 
+    font-size: 1.5vw;
+   
+  }  
+
+  .weathers img {
+    width: 180px;
+    margin-top: -2px;
+  
+  }
+  
+
+  .weathers p {
+
+    font-size: 2.6vw;
+    /* font-weight: 600; */
+  
+  }
+  .weathers .climate {
+    line-height: 1vw;
+    font-size: 2.5vw;
+    font-family: actay;
+    color: whitesmoke;
+    font-weight: 500;
+  }
+  .errorPage p {
+    font-size: 2.6vw;
+    font-family: actay;
+  
+  }
+  .weathers .cityName {
+    font-size: 2.6vw;
+    font-family: actay;
+    color: whitesmoke;
+    font-weight: 500;
+
+  
+  }
+  .countrynameandcity {
+    height: 7vh;
+    width: 100%;
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vw;
+  
+  }
+  .contryflags {
+    height: 5vh;
+    width: 10%;
+    overflow: hidden;
+  
+  }
+  .contryflags img {
+    width: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  
+  }
+  .weatherinformation {
+
+    height: 28vh;
+    width: 100%;
+    padding: 0 0.6vw;
+  
+  
+  }
+  .weatherinformation h2 {
+    margin: 2vw 0;
+    font-size: 1.8vw;
+  
+  
+  }
 }

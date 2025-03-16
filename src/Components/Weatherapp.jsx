@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import axios from "axios";
 
 import cloud from "/src/assets/images/Clouds.png";
-import rain from "/src/assets/i mages/Rain.png";
+import rain from "/src/assets/images/Rain.png";
 import clear from "/src/assets/images/clearjan.webp";
 import mist from "/src/assets/images/mist.png";
-import err from "/src/assets/images/8902954.webp";
+import err from "/src/assets/images/cloudsss.png";
 import world from "/src/assets/images/world.png";
 
 import { CiSearch } from "react-icons/ci";
@@ -121,7 +121,6 @@ const WeatherApp = () => {
 
           {data && data.weather && (
             <div className="weathers">
-              {/* <h2 className="cityName">{data.name}</h2> */}
               <div className="imagesss">
                 <img
                   className="weather-icon"
